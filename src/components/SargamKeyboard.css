@@ -1,0 +1,22 @@
+.sargam-keyboard {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.swar-btn {
+  padding: 0.8rem 1rem;
+  font-size: 1.1rem;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.swar-btn:hover {
+  background-color: #555;
+}

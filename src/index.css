@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* index.css */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fefaf2;
+}
+.bg-cream {
+  background-color: #fefaf2;
+}
+
+.btn {
+  padding: 6px 12px;
+  background-color: #e2e8f0;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+.btn:hover {
+  background-color: #cbd5e1;
+}
+.btn-red {
+  background-color: #fecaca;
+}
+.btn-red:hover {
+  background-color: #f87171;
+}
+.btn-green {
+  background-color: #bbf7d0;
+}
+.btn-green:hover {
+  background-color: #34d399;
+}
+.btn-blue {
+  background-color: #bfdbfe;
+}
+.btn-blue:hover {
+  background-color: #60a5fa;
+}

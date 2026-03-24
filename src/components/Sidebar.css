@@ -1,0 +1,43 @@
+.sidebar {
+  width: 220px;
+  background: #fefefe;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -220px;
+  transition: left 0.3s ease;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  padding: 1.5rem;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.sidebar .logo {
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  color: #845ec2;
+}
+
+.sidebar-nav a,
+.logout-btn {
+  display: block;
+  margin: 1rem 0;
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  transition: 0.2s ease;
+  border: none;
+  background: none;
+  text-align: left;
+  padding: 0;
+  cursor: pointer;
+}
+
+.sidebar-nav a:hover,
+.logout-btn:hover {
+  color: #ff6f61;
+}

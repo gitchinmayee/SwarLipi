@@ -1,0 +1,26 @@
+.gallery {
+  padding: 2rem;
+  text-align: center;
+}
+
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.notation-card {
+  background: #ffffff15;
+  padding: 1rem;
+  border-radius: 12px;
+   -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  width: 200px;
+}
+
+.notation-card img {
+  width: 100%;
+  border-radius: 8px;
+}

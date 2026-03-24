@@ -1,0 +1,15 @@
+.upload-form {
+  margin: 20px 0;
+}
+
+.upload-form input[type="file"] {
+  margin-right: 10px;
+}
+
+.upload-form button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #888;
+  color: #fff;
+  cursor: pointer;
+}

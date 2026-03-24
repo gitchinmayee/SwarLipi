@@ -1,0 +1,26 @@
+.modal-backdrop {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  max-width: 90vw;
+  max-height: 90vh;
+  overflow: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.zoomable-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  touch-action: pinch-zoom;
+}

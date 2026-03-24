@@ -1,0 +1,40 @@
+/* src/components/NotationCard.css */
+.notation-card {
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  width: 220px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.notation-card:hover {
+  transform: scale(1.05);
+}
+
+.notation-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.notation-info {
+  padding: 10px;
+  color: #fff;
+}
+
+.notation-info button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.notation-info button:hover {
+  background-color: #d9363e;
+}

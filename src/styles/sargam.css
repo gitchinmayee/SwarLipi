@@ -1,0 +1,17 @@
+.notation-block {
+  display: flex;
+  border: 1px solid #888;
+  padding: 8px;
+  border-radius: 6px;
+  margin: 4px;
+  background-color: #fffce6;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.swar-box {
+  margin: 0 4px;
+  font-size: 18px;
+  font-weight: 600;
+  min-width: 20px;
+  text-align: center;
+}

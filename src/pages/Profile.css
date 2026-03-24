@@ -1,0 +1,64 @@
+/* src/pages/Profile.css */
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #dbeafe, #f0f4ff);
+   background-image: url('/public/newbg-auth.png'); /* Add your image path here */
+  padding: 20px;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.15);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  color: #222;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 2px solid #fff;
+}
+
+.placeholder-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+input[type="file"] {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .glass-card {
+    padding: 20px;
+  }
+
+  .profile-pic,
+  .placeholder-pic {
+    width: 100px;
+    height: 100px;
+  }
+}
